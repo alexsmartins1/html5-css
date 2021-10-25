@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: darkseagreen;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: lightsteelblue;
+            }
+        nav {
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    </head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="Assuntos">
+            <article>
+                <h2>Notícias sobre Esportes</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora impedit earum voluptas culpa nulla architecto labore magni, ipsum facere tenetur. Accusantium at nobis sit velit maxime repellendus quas reprehenderit magni?</p>
+                <aside>
+                    <p>Desenvolvido por Maria da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícias sobre Cinema</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim totam delectus est temporibus eius ab repellendus eaque voluptatem voluptatum mollitia deserunt laboriosam veniam quaerat quisquam molestias fuga asperiores, optio dolore.</p>
+                <aside>
+                    <p>Desenvolvido por João da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe rerum illo fuga nobis qui corrupti! Possimus, sed cum! Facere soluta facilis praesentium accusantium at similique ratione debitis molestiae ex minus.</p>
+                <aside>
+                    <p>Desenvolvido por José da Silva</p>
+                </aside>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por EmpresaX</p>
+
+    </footer>
+</body>
+</html>
